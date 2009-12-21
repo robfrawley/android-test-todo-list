@@ -73,14 +73,13 @@ public class ToDoList extends Activity {
     		
     	});
     	
-    	Log.v("LOGGED AT ToDoList::onCreate", "Attaching contextual menus to list views");
+    	// register contextual menu with list view items
     	registerForContextMenu(myListView);
     	
-    	Log.v("LOGGED AT ToDoList::onCreate", "Attempting Intent creation");
-    	Intent TextInputOverlayIntent = 
+    	// example of creating intent and starting intent activity
+    	/*Intent TextInputOverlayIntent = 
     		new Intent(ToDoList.this, TextInputOverlay.class);
-    	Log.v("LOGGED AT ToDoList::onCreate", "Attempting to start intent activity");
-    	ToDoList.this.startActivity(TextInputOverlayIntent);
+    	ToDoList.this.startActivity(TextInputOverlayIntent);*/
 
     }
     
