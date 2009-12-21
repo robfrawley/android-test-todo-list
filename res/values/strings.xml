@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">To-Do List</string>
+    <string name="app_name">Todo List</string>
+	<string name="app_label">Todo_List</string>
+
     <string name="editTextValue">New To Do Item</string>
-    
+
     <string name="menuItemQuit">Quit</string>
     <string name="menuItemAddItem">Add Item</string>
     <string name="menuItemClearItems">Clear All</string>
